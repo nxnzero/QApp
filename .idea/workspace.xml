@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59cc1c64-669f-4528-83ff-9dc9996805fb" name="Changes" comment="Обновил комменты">
-      <change afterPath="$PROJECT_DIR$/Notes.md" afterDir="false" />
+    <list default="true" id="59cc1c64-669f-4528-83ff-9dc9996805fb" name="Changes" comment="обновил мейн">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -101,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709468771849</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="обновил мейн">
+      <option name="closed" value="true" />
+      <created>1709473820594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709473820594</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +171,7 @@
     <MESSAGE value="Создаем окно приложения" />
     <MESSAGE value="Добавил комментарии" />
     <MESSAGE value="Обновил комменты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновил комменты" />
+    <MESSAGE value="обновил мейн" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновил мейн" />
   </component>
 </project>
