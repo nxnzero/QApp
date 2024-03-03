@@ -1,17 +1,22 @@
 import sys
 
-from PyQt6.QtWidgets import QApplication, QWidget, QPushButton
+from PyQt6.QtCore import QSize, Qt
+from PyQt6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow
 
-'''
-QApplication - обработчик приложения
-QWidget - базовый пустой виджет GUI
-Widget - элемент для построения интерфейса(ов)
-'''
 
-application = QApplication(sys.argv) # sys.argv используется для аргументов ком строки
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
 
-window = QWidget()
-window.show() # Обязательный метод: по умолчанмю окно скрыто
+        self.setWindowTitle("QApp")
+        button = QPushButton("Click me")
 
-# Start application
+        self.setCentralWidget(button)
+
+
+application = QApplication(sys.argv)
+
+window = QMainWindow()
+window.show()
+
 application.exec()
